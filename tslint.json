@@ -1,0 +1,39 @@
+{
+    "rules": {
+        "arrow-return-shorthand": true,
+        "comment-format": [
+            true,
+            "check-space"
+        ],
+        "no-angle-bracket-type-assertion": true,
+        "no-duplicate-variable": true,
+        "no-floating-promises": true,
+        "no-for-in-array": true,
+        "no-shadowed-variable": true,
+        "no-string-literal": true,
+        "no-string-throw": true,
+        "no-trailing-whitespace": true,
+        "no-unnecessary-callback-wrapper": true,
+        "no-unnecessary-qualifier": true,
+        "no-unnecessary-type-assertion": true,
+        "no-unused-expression": true,
+        "no-unused-variable": true,
+        "no-use-before-declare": true,
+        "no-var-keyword": true,
+        "no-var-requires": true,
+        "prefer-conditional-expression": true,
+        "prefer-for-of": true,
+        "prefer-method-signature": true,
+        "prefer-template": true,
+        "quotemark": [
+            true,
+            "double"
+        ],
+        "semicolon": true,
+        "triple-equals": [
+            true,
+            "allow-null-check",
+            "allow-undefined-check"
+        ]
+    }
+}

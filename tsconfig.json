@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": false,
+        "typeRoots": [ "node_modules/@types", "typings", "node_modules"],
+        "target": "es6",
+        "forceConsistentCasingInFileNames": true,
+        "pretty": true
+    },
+    "compileOnSave": true,
+    "exclude": [
+        "retired/"
+    ]
+}
