@@ -1,8 +1,7 @@
 window.addEventListener("load", async () => {
     let audio = new Audio("/src/tunes.mp3");
 
-    let time = parseInt(window.localStorage.getItem("audio"));
-
+    let time = parseInt(window.localStorage.getItem("audio")) | 0;
 
     audio.currentTime = time;
     await audio.play();

@@ -1,7 +1,8 @@
-html, body {
+html,
+body {
     margin: 0;
     overflow: hidden;
-    background-image: url("africa.png");
+    background-image: url("/src/africa.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto 100%;
@@ -11,20 +12,17 @@ html, body {
 
 footer {
     position: absolute;
-
     bottom: 0;
     left: 0;
     right: 0;
     height: 10px;
-}
-
-.progress {
-    height: 100%;
-}
-
-.progress .bar {
-    background: white;
-    height: 100%;
-    width: 0%;
-    transition: width 1s ease-out;
+    .progress {
+        height: 100%;
+        .bar {
+            background: white;
+            height: 100%;
+            width: 0%;
+            transition: width 1s ease-out;
+        }
+    }
 }
